@@ -8,19 +8,15 @@
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
   <meta name="viewport" content="width=device-width">
-  <!--<script src="http://www.modernizr.com/downloads/modernizr-latest.js"></script>-->
+  <script src="http://www.modernizr.com/downloads/modernizr-latest.js"></script>-->
   <script>
     $(function() {
       $( "#datepicker" ).datepicker();
     });
     </script>
-
-	
 </head>
-<body>
+
 <style>
-
-
 body {
  font-family: sans-serif;
  width: 60%;
@@ -88,8 +84,6 @@ textarea {
  
  
 }
-
-
  input[type=submit] {
  width: 100px;
  padding: 0;
@@ -99,14 +93,9 @@ textarea {
  -moz-box-shadow: inset 0 0 0 1px #0EE886, 0 0 0 1px #11BF71;
  box-shadow: inset 0 0 0 1px #0EE886, 0 0 0 1px #11BF71;
 }
-
-
  input::-webkit-inner-spin-button {
  padding-right: 10px;
 }
-
-
-
  @media screen and (max-width: 750px) {
  label {
  margin-bottom: 10px;
@@ -121,6 +110,7 @@ textarea {
 
 
 </style>
+<body>
 <form method="post" action="">
  <fieldset>
  <legend> Personal Information: </legend>
@@ -140,7 +130,6 @@ textarea {
  <label for="age">Age: </label>
  <input id="age" name="age" type="number" min="1" max="120">
  </li>
- 
  <li>
  <label for="dob">Date of Birth: </label>
  <input id="datepicker" name="dob" type="text" required>
